@@ -8,13 +8,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css?version=17">
+    <link rel="stylesheet" type="text/css" href="styles.css?version=18">
 </head>
 
 <header>
     <div class="header">
         <div class="header-container">
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE-Cm4LBEzN_w/profile-displayphoto-shrink_100_100/0?e=1604534400&v=beta&t=FCITcug9RCfYT2zRYiu3zf0zTT8D1AgecRo1teVE0HY" alt="" class="avatar">
+            <img src="/images/me.jpg" alt="">
+            <img src="images/me.jpg" class="avatar">
             <h4 class="name"><b>WILLIO JEANVILMA</b></h4>
             <h5>SOFTWARE ENGINEER</h5>
         </div>
@@ -41,7 +42,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#experience">Experience</a>
                 </li>
-
             </ul>
         </div>
 
@@ -51,7 +51,7 @@
 <body>
     <div class="body">
 
-        <div id="about">
+        <div id="about" class="section">
             <h4 class="about title">About Me</h4>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -60,8 +60,8 @@
         </div><br>
         <hr><br>
 
-        <div id="education">
-            <h4 class="education title section">Education</h4>
+        <div id="education" class="section">
+            <h4 class="education title">Education</h4>
             <br>
             <ol class="q">
                 <li>
@@ -93,8 +93,8 @@
         </div><br>
         <hr><br>
 
-        <div id="skills">
-            <h4 class="skills title section">Skills</h4>
+        <div id="skills" class="section">
+            <h4 class="skills title">Skills</h4>
             <br>
             <ul>
                 <table cellspacing=20>
@@ -104,6 +104,10 @@
                     </tr>
                     <tr>
                         <td>Flutter/Dart</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>MySQL</td>
                         <td>⭐⭐⭐⭐⭐</td>
                     </tr>
                     <tr>
@@ -124,26 +128,41 @@
                         <td>⭐⭐⭐⭐</td>
                     </tr>
                     <tr>
-                        <td>HTML</td>
+                        <td>CSS</td>
                         <td>⭐⭐⭐⭐</td>
                     </tr>
                     <tr>
-                        <td>Java</td>
+                        <td>C</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>English</td>
                         <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Creole</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>French</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Spanish</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Germman</td>
+                        <td>⭐</td>
                     </tr>
 
                 </table>
             </ul>
+        </div><br>
+        <hr><br>
 
-            <br>
-            <ul>
-
-
-            </ul>
-        </div><br><br>
-
-        <div id="projects">
-            <h4 class="education title section">Projects</h4>
+        <div id="projects" class="section">
+            <h4 class="education title">Projects</h4>
             <br>
             <ol class="q">
                 <li>
@@ -152,16 +171,39 @@
                 <ul>
                     <li>Created a Mobile application that is downloaded and used by more than 10,000 people around the world.
                     </li>
-                    <li> This application was build using Flutter, Dart, Firebase and APIs.
+                    <li> This application was built using Flutter, Dart, Firebase and APIs.
+                    </li>
+                </ul><br>
+
+                <li>
+                    <h5>Jeelio.com</h5>
+                </li>
+                <ul>
+                    <li>Created a personnal web-based social media application.
+                    </li>
+                    <li> This web application was built using HTML, CSS, JavaScript, MySQL and PHP.
+                    </li>
+                    <li> People can create accounts and login in. They also can post texts and documents and chat (intanstly) with other users.
+                    </li>
+                </ul><br>
+
+                <li>
+                    <h5>Pizza Ordering System</h5>
+                </li>
+                <ul>
+                    <li>Created a pizza ordering system as a final project for my associate degree.
+                    </li>
+                    <li> The system was built using JAVA, and MySQL.
+                    </li>
+                    <li> The system allowed people to create orders and save them to a database.
                     </li>
                 </ul>
-
             </ol>
         </div><br>
         <hr>
 
-        <div id="experience">
-            <h4 class="experience title section">Experience</h4>
+        <div id="experience" class="section">
+            <h4 class="experience title">Experience</h4>
             <br>
             <ol class="q">
                 <li>
@@ -170,8 +212,6 @@
                 <ul>
                     Created a Mobile application that is downloaded and used by more than 10,000 non-native English speakers to improve their English.
                 </ul>
-
-
             </ol>
         </div><br><br>
 

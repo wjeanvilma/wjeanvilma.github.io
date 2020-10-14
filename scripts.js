@@ -14,7 +14,7 @@ $('#menu-btn').hover(function() {
 });
 
 $('.section').hover(function() {
-    $(this).css("background-color", "whitesmoke");
-}, function() {
     $(this).css("background-color", "white");
+}, function() {
+    $(this).css("background-color", "rgb(240, 244, 245)");
 });

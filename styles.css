@@ -57,3 +57,15 @@ ol.q {
 #menu {
     display: none;
 }
+
+.section {
+    padding: 10px 30px;
+}
+
+body {
+    background-color: rgb(240, 244, 245);
+}
+
+li a {
+    color: rgb(7, 100, 123);
+}
