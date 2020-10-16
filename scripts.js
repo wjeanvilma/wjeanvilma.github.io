@@ -6,9 +6,3 @@ $('#menu-btn').click(function() {
     }
 
 });
-
-$('#menu-btn').hover(function() {
-    $(this).css("color", "white");
-}, function() {
-    $(this).css("color", "gray");
-});

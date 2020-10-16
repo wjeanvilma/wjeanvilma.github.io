@@ -42,7 +42,14 @@ body {
     width: 35px;
     margin-left: auto;
     margin-right: 20px;
+}
+
+.menu-icon {
     color: gray;
+}
+
+.menu-icon:hover {
+    color: white;
 }
 
 ol.q {
