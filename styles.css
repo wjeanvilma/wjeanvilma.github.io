@@ -2,6 +2,14 @@
     background-color: lightpink;
 }
 
+html,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .header-container {
     text-align: center;
     padding: 30px;
@@ -114,7 +122,7 @@ li a {
     width: 400px;
 }
 
-#contact {
+.contact-icon {
     margin-left: auto;
     margin-right: auto;
 }
