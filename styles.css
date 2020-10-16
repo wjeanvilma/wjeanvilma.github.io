@@ -1,5 +1,5 @@
 .header {
-    background-color: lightblue;
+    background-color: lightpink;
 }
 
 .header-container {
@@ -7,21 +7,22 @@
     padding: 30px;
 }
 
-.body {
-    margin: 5%;
-}
-
 .avatar {
     margin-left: auto;
     margin-right: auto;
-    height: 160px;
-    width: 160px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     padding: 10px;
 }
 
 .name {
     color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.prof {
+    color: gray;
     font-family: Helvetica, sans-serif;
 }
 
@@ -68,4 +69,52 @@ body {
 
 li a {
     color: rgb(7, 100, 123);
+}
+
+.haitec {
+    width: 350px;
+    margin: 30px;
+}
+
+.haitec-text {
+    max-width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img,
+.section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fab {
+    padding: 5px;
+    color: gray;
+}
+
+#about {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#education,
+#skills,
+#contact {
+    background-color: white;
+}
+
+.download-button {
+    background-color: white;
+}
+
+.jeelio {
+    width: 400px;
+}
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
 }

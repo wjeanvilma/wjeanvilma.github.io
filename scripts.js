@@ -12,9 +12,3 @@ $('#menu-btn').hover(function() {
 }, function() {
     $(this).css("color", "gray");
 });
-
-$('.section').hover(function() {
-    $(this).css("background-color", "white");
-}, function() {
-    $(this).css("background-color", "rgb(240, 244, 245)");
-});
