@@ -9,77 +9,88 @@
 
     <title>Willio Jeanvilma</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css?version=117">
+    <link rel="stylesheet" type="text/css" href="styles.css?version=147">
 </head>
-
-<header>
-    <div class="header">
-        <div class="header-container">
-            <img src="images/me.jpg" class="avatar">
-            <h4 class="name"><b>WILLIO JEANVILMA</b></h4>
-            <h6 class="prof">SOFTWARE ENGINEER</h6>
-        </div>
-        <hr>
-
-        <div class="form-inline">
-            <a href="https://www.facebook.com/willio.jeanvilma" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="mailto:jeanvilmawillio@gmail.com.com" target="_blank"><i class="fab fa-google"></i></a>
-            <a href="https://www.instagram.com/williojeanvilma/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/willio-jeanvilma-6480a512a/" target="_blank"><i class="fab fa-linkedin"></i></a>
-
-            <div id="menu-btn" class="menu-btn">
-                <h4><i class="fa fa-bars menu-icon" id="menu-icon"></i></h4>
-            </div><br>
-        </div>
-
-        <div id="menu">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#achievements">Achievements</a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</header>
 
 <body>
     <div class="body">
+        <header>
+            <div class="header">
+                <div id="menu">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#achievements">Achievements</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="header-container">
+                    <h5>Hi, my name is</h5> 
+                    <h4 class="name"><b>WILLIO JEANVILMA.</b></h4>
+                    <h6 class="description">Results-oriented Computer Science student with extensive knowledge of software development technologies and
+                        processes. Proven talent developing quality applications and commitment to exceeding organizational goals in a
+                        Software Engineer role.</h6>
+                        <div>
+                            <a href="https://www.facebook.com/willio.jeanvilma" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="mailto:jeanvilmawillio@gmail.com.com" target="_blank"><i class="fab fa-google"></i></a>
+                            <a href="https://www.instagram.com/williojeanvilma/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/willio-jeanvilma-6480a512a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
 
-        <div id="about" class="section">
-            <br>
-            <h4 class="about title">About Me</h4>
-            <p>
-                Hi there 👋🏽 ! My name is Willio Jeanvilma. I am software engineer.<br> Are you looking for someone to help with your next project or to join you team? <br> Are you looking for someone that is willing and able to learn new technologies
-                to help your company? Do you have an innovative idea and are looking for a great teammate to help you and/or you company?<br> If you answered to any of those questions above, <a href="#contact">contact me</a>. Check out <a href="#projects">my work </a>                so you have an idea of what I can bring to the table.
-                <br>
-            </p>
-        </div><br>
-        <br>
+                        <button type="button" onclick="gotoResume()" class="btn btn-outline-secondary">See my resume</button>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="dots">.....</div>
+
+
+        <div class="about" id="about">
+            <h5 class="title">About Me</h5>
+            <div class="row form-inline">
+                <div class="paragraph">
+                    <p>
+                        Hi there 👋🏽 ! My name is Willio Jeanvilma. I am a software engineer.<br> 
+                        Are you looking for someone to help with your next project or to join you team? <br> 
+                        Are you looking for someone that is willing and able to learn new technologies
+                        to help your company? Do you have an innovative idea and are looking for a great teammate to help you and/or you company?<br> 
+                        If you answered to any of those questions above, <a href="#contact">contact me</a>. 
+                        Check out <a href="#projects">my work </a>so you have an idea of what I can bring to the table.  
+                    </p>
+                </div>  
+                <div>
+                    <img src="images/willio.jpg" class="avatar">
+                </div>
+            </div>
+        </div>
+
+        <div class="dots">.....</div>
 
         <div id="education" class="section">
             <br>
-            <h4 class="education title">Education</h4>
+            <h4 class="title">Education</h4>
             <br>
             <ol class="q">
                 <li>
@@ -109,6 +120,8 @@
                 </ul>
             </ol>
         </div>
+
+        <div class="dots">.....</div>
 
         <div id="projects" class="section">
 
@@ -273,6 +286,8 @@
             </ol>
         </div><br><br>
 
+    </div>
+    <footer>
         <div id="contact" class="section">
             <br>
             <h4 class="contact title">Contact</h4>
@@ -283,14 +298,17 @@
                 <a href="https://www.linkedin.com/in/willio-jeanvilma-6480a512a/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <br><br>
             </div>
-
+    
         </div>
-
-
-
-    </div>
+    </footer>
 
     <script src="scripts.js?version=1"></script>
 </body>
+
+<script>
+    function gotoResume(){
+   window.location = "resume.html";
+}
+</script>
 
 </html>

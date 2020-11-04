@@ -1,41 +1,77 @@
-.header {
-    background-color: lightpink;
-}
-
 html,
-body {
+body {  
     width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 }
 
+.body{
+   color: gray;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .header-container {
+    width: 100%;
+    color: gray;
+    text-align: left;
+    padding: 150px 100px 30px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.name {
+    color: gray;
+    font-family: 'Spectral SC', serif;
+    font-size: 350%;
+}
+
+.description{
+    padding-top: 10px;
+    color: gray;
+    width: 90%;
+}
+
+.fab{
+    font-size: 25px;
+    padding: 20px 7px;
+    color: gray;
+}
+.dots{
     text-align: center;
-    padding: 30px;
+    font-size: 40px;
+    padding-bottom: 180px;
+    padding-top: 180px;
+
+}
+
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .avatar {
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    padding: 10px;
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    padding: 30px;
 }
 
-.name {
-    color: white;
-    font-family: Helvetica, sans-serif;
+.paragraph{
+    width: 50%;
 }
 
-.prof {
-    color: gray;
-    font-family: Helvetica, sans-serif;
-}
+
+
+
 
 .fa-bars {
-    width: 150px;
+    width: 200px;
 }
 
 .menu-btn {
@@ -46,6 +82,7 @@ body {
 
 .menu-icon {
     color: gray;
+    padding: 20px 0px;
 }
 
 .menu-icon:hover {
@@ -60,34 +97,19 @@ ol.q {
     color: red;
 }
 
-#about,
-#conact {
-    text-align: center;
-}
 
-#menu {
-    display: none;
-}
-
-.section {
-    padding: 10px 30px;
-}
-
-body {
-    background-color: rgb(240, 244, 245);
-}
 
 li a {
     color: rgb(7, 100, 123);
 }
 
 .haitec {
-    width: 350px;
+    width: 45%;
     margin: 30px;
 }
 
 .haitec-text {
-    max-width: 50%;
+    max-width: 45%;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -100,26 +122,21 @@ li a {
     margin-right: auto;
 }
 
-.fab {
-    padding: 7px;
-    color: gray;
-}
-
-#about {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-#education,
-#skills,
-#contact {
-    background-color: white;
-}
 
 .download-button {
     background-color: white;
 }
 
 .jeelio {
-    width: 400px;
+   width: 45%;
+}
+.nav-item a{
+    margin-top: 40px;
+    
+}
+embed{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
 }

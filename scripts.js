@@ -6,3 +6,7 @@ $('#menu-btn').click(function() {
     }
 
 });
+
+function gotoResume(){
+   window.location = "/resume.html";
+}
