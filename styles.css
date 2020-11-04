@@ -3,7 +3,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    
+    overflow: hidden;;
 }
 
 .body{
@@ -63,19 +63,10 @@ body {
     width: 50%;
 }
 
-
-
-
-
 .fa-bars {
     width: 200px;
 }
 
-.menu-btn {
-    width: 35px;
-    margin-left: auto;
-    margin-right: 20px;
-}
 
 .menu-icon {
     color: gray;
