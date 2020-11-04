@@ -3,19 +3,13 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;;
-}
-
-.body{
-   color: gray;
-   margin-left: auto;
-   margin-right: auto;
+    color: gray;
 }
 
 .header-container {
     color: gray;
     text-align: left;
-    padding: 150px 100px 30px;
+    padding: 0 100px 0;
     margin-left: auto;
     margin-right: auto;    
 }
@@ -44,23 +38,30 @@ body {
 
 }
 
-.about{
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 
 .avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+.img-avatar{
+   margin: 30px;
     height: 350px;
     width: 350px;
-    border-radius: 10%;
-    padding: 30px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.paragraph{
-    width: 50%;
+.about{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fa-bars {
@@ -115,9 +116,6 @@ li a {
     background-color: white;
 }
 
-.jeelio {
-   width: 45%;
-}
 .nav-item a{
     margin-top: 40px;
     
