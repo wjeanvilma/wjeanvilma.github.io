@@ -6,6 +6,9 @@ body {
     color: gray;
     overflow-x: hidden;
 }
+.menu{
+    width: 100%;
+}
 
 .header-container {
     color: gray;
