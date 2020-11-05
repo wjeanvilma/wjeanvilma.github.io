@@ -17,9 +17,10 @@ body {
 .header-container {
     color: gray;
     text-align: left;
-    padding: 0 100px 0;
+    width: 80%;
+    display: block;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;  
 }
 
 .name {
@@ -71,7 +72,8 @@ body {
     margin-right: auto;
 }
 
-.about{
+.about,
+.education{
     width: 80%;
     display: block;
     margin-left: auto;
