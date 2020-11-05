@@ -12,43 +12,31 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css?version=908">
+    <link rel="stylesheet" type="text/css" href="styles.css?version=17">
 </head>
+<div id="menu-btn-cont" class="navbar-light bg-light">
+    <h4 id="menu-btn" class="menu-btn"><i class="fa fa-bars menu-icon" id="menu-icon"></i></h4>
+</div>
+<div class="row navbar-light bg-light">
+    <div class="col" id="menu" style="display: none;">
+       <a class="nav-link nav-item" href="#about">About me</a>
+       <a class="nav-link" href="#education">Education</a>
+       <a class="nav-link" href="#skills">Skills</a>
+       <a class="nav-link" href="#projects">Projects</a>
+       <a class="nav-link" href="#experience">Experience</a>                       
+       <a class="nav-link" href="#contact">Contact</a>                     
+       <a class="nav-link" href="#achievements">Achievements</a>
+    </div>        
+</div>
 
 <body>
     <div class="body">
+        
         <header>
-                <div id="menu">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#education">Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#achievements">Achievements</a>
-                        </li>
-                    </ul>
-                </div>
-                
-                
-                        <img src="images/willio.jpg" class="img-avatar">
+                <img src="images/willio.jpg" class="img-avatar">
                     
                 
-                <div class="header-container col-sm-12 col-md-12 col-lg-8" >
+                <div class="header-container col-sm-12 col-md-12 col-lg-6" >
                     <h5>Hi, my name is</h5> 
                     <h4 class="name"><b>WILLIO JEANVILMA.</b></h4>
                     <h6 class="description">Results-oriented Computer Science student with extensive knowledge of software development technologies and
@@ -61,16 +49,15 @@
                             <a href="https://www.linkedin.com/in/willio-jeanvilma-6480a512a/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
 
-                        <button type="button" onclick="gotoResume()" class="btn btn-outline-secondary">See my resume</button>
+                        <button type="button" onclick="gotoResume()" class="btn btn-outline-primary">See my resume</button>
 
                 </div>
             
         </header>
 
         <div class="dots">.....</div>
-
         
-        <div class="about" id="about">
+        <div class="about col-sm-12 col-md-12 col-lg-6" id="about">
             <h5 class="title">About Me</h5>           
                 <div class="paragraph">
                     <p>
