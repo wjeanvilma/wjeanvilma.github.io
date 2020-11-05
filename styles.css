@@ -10,8 +10,16 @@ body {
     width: 100%;
 }
 #menu-btn-cont{
+    color:rgb(13, 183, 240);
     padding: 10px 30px;
     text-align: right;
+}
+.menu-text{
+    color:rgb(13, 183, 240);
+}
+
+.menu-icon:hover {
+    color:lightblue;
 }
 
 .header-container {
@@ -48,6 +56,9 @@ body {
 }
 
 .title{
+    font-size: 25px;
+    color:rgb(13, 183, 240);
+    font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
     margin-left: auto;
@@ -84,30 +95,12 @@ body {
     width: 200px;
 }
 
-
-.menu-icon {
-    margin-left: auto;
-    margin-right: auto;
-    color: gray;
-    
-}
-
-.menu-icon:hover {
-    color:lightblue;
-}
-
 ol.q {
     list-style-type: upper-roman;
 }
 
-.title {
-    color: red;
-}
-
-
-
-li a {
-    color: rgb(7, 100, 123);
+a {
+    color:rgb(13, 183, 240);
 }
 
 .haitec {
@@ -136,8 +129,16 @@ li a {
 
 
 embed{
+    width: 100%;
+    display: block;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     align-items: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
 }
