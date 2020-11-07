@@ -84,7 +84,10 @@ body {
 }
 
 .about,
-.education{
+.education,
+.skills,
+.projects,
+.experience{
     width: 80%;
     display: block;
     margin-left: auto;
@@ -104,24 +107,17 @@ a {
 }
 
 .haitec {
-    width: 45%;
-    margin: 30px;
+    width: 35%;
 }
 
 .haitec-text {
-    max-width: 45%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    
+    margin-left: 70px; 
+   
 }
-
-.img,
-.section {
-    margin-left: auto;
-    margin-right: auto;
+.haitec-description{
+    margin-left: 20px;    
 }
-
 
 .download-button {
     background-color: white;
