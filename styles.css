@@ -88,7 +88,6 @@ body {
 .skills,
 .projects,
 .experience{
-    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -107,7 +106,7 @@ a {
 }
 
 .haitec {
-    width: 35%;
+    width: 30%;
 }
 
 .haitec-text {
