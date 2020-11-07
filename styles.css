@@ -111,12 +111,14 @@ a {
 }
 
 .haitec-text {
-    
-    margin-left: 70px; 
-   
+    max-width: 90%;
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
 .haitec-description{
-    margin-left: 20px;    
+    margin: 5px;    
 }
 
 .download-button {
